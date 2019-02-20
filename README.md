@@ -10,6 +10,8 @@ npm install debounce-ctx
 
 ## Usage
 
+**debounce(f, wait, ctx)**
+
 ```
 <script src="debounce-ctx.min.js"></script>
 <script>
@@ -36,7 +38,7 @@ or, you can give the context as the third argument:
 
 ```
 var ctx = new MyClass();
-document.body.addEventListener('resize', debounce(resize.bind(ctx), 400, ctx));
+document.body.addEventListener('resize', debounce(resize, 400, ctx));
 ```
 
 ## License
