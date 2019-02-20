@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test</title>
+</head>
+<body>
+
+<button id="test">Click</button>
+
+<script src="./dist/debounce-ctx.min.js"></script>
+<script>
+window.onload = function () {
+  var lt = Date.now();
+  var cnt = 0;
+  var el = document.getElementById('test');
+  el.addEventListener('click', debounce(function (e) {
+    console.log('[' + cnt + '] ' + lt);
+    cnt++;
+    lt = Date.now();
+  }, 1000));
+};
+</script>
+
+</body>
+</html>

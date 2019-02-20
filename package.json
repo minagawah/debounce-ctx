@@ -1,0 +1,27 @@
+{
+  "name": "debounce-ctx",
+  "version": "0.0.1",
+  "description": "Simple debounce utility (optionally takes a specific context).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -fR dist && browserify src/index.js -t uglifyify -o dist/debounce-ctx.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minagawah/debounce-ctx.git"
+  },
+  "keywords": [
+    "debounce"
+  ],
+  "author": "minagawah <minagawa@tokyo800.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minagawah/debounce-ctx/issues"
+  },
+  "homepage": "https://github.com/minagawah/debounce-ctx#readme",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "uglifyify": "^5.0.1"
+  }
+}
