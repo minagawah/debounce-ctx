@@ -1,11 +1,13 @@
 {
   "name": "debounce-ctx",
-  "version": "0.0.2",
-  "description": "Simple debounce utility (optionally takes a specific context).",
+  "version": "1.0.0",
+  "description": "A simple debounce utility that optionally takes a specific context",
   "main": "index.js",
+  "jsdelivr": "./dist/debounce-ctx.min.js",
+  "unpkg": "./dist/debounce-ctx.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -fR dist && browserify index.js -t uglifyify -o dist/debounce-ctx.min.js"
+    "build": "rm -fR dist && browserify --standalone debounce index.js -t uglifyify -o dist/debounce-ctx.min.js"
   },
   "repository": {
     "type": "git",

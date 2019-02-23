@@ -1,6 +1,6 @@
 # debounce-ctx
 
-Simple debounce utility (optionally takes a specific context).
+A simple debounce utility that optionally takes a specific context
 
 ## Install
 
@@ -10,7 +10,7 @@ npm install debounce-ctx
 
 ## Usage
 
-**debounce(f, wait, ctx)**
+### debounce(f, wait, ctx)
 
 ```
 <script src="debounce-ctx.min.js"></script>

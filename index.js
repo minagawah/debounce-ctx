@@ -33,4 +33,4 @@ function debounce (f, wait, ctx) {
   };
 }
   
-global.debounce = module.exports = debounce;
+module.exports = debounce;
