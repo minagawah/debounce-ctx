@@ -26,10 +26,13 @@ function debounce (f, wait, ctx) {
     args = arguments;
     if (timeout) {
       clearTimeout(timeout);
+      timeout = setTimeout(g, wait);
     } else {
       g();
+      timeout = setTimeout(function () {
+        timeout = null;
+      }, wait);
     }
-    timeout = setTimeout(g, wait);
   };
 }
   
