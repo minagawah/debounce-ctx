@@ -1,6 +1,6 @@
 {
   "name": "debounce-ctx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple debounce utility that optionally takes a specific context",
   "main": "index.js",
   "jsdelivr": "./dist/debounce-ctx.min.js",
