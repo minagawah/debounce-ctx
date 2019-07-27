@@ -45,7 +45,7 @@ window.addEventListener('resize', debounce(resize, 400, ctx));
 
 ## Notes
 
-(a) TypeScript
+### (a) TypeScript: "import/export"
 
 You may encounter several errors when you attempt
 to use the module with our TypeScript based projects
@@ -69,6 +69,8 @@ or specify the flag in your `tsconfig.json`.
 
 https://stackoverflow.com/questions/54701255/importing-victor-js-in-typescript#answer-54785103
 
+
+### (b) TypeScript: "addEventListener"
 
 ```
 TS2345: Argument of type 'Function' is not assignable to parameter of type 'EventListenerOrEventListenerObject'.
