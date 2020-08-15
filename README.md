@@ -43,6 +43,21 @@ var ctx = new MyClass();
 window.addEventListener('resize', debounce(resize, 400, ctx));
 ```
 
+## Test
+
+### Testing CommonJS
+```shell
+node ./test/cjs/test.js
+```
+
+### Testing UMD
+Firstly, build the bundle for browser:
+```shell
+yarn build
+```
+Launch your browser, open `test/umd/index.html`, and click the button to see if it works.
+
+
 ## Notes
 
 ### (a) TypeScript: "import/export"
@@ -96,6 +111,6 @@ https://stackoverflow.com/questions/47166369/argument-of-type-e-customevent-void
 ## License
 
 MIT License  
-Copyright (c) 2019 Hiroki Minagawa
+Copyright (c) 2019-2020 Hiroki Minagawa
 
 See [LICENSE](./LICENSE) for details.
