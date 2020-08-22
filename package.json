@@ -16,7 +16,7 @@
   "keywords": [
     "debounce"
   ],
-  "author": "minagawah <minagawa@tokyo800.jp>",
+  "author": "Hiroki Minagawa <mina@tokyo800.jp>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/minagawah/debounce-ctx/issues"
